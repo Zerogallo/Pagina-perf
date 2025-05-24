@@ -1,9 +1,10 @@
 import "./App.css";
+import TelaIncial from "./tela/indexTela";
 
 function App() {
   return (
     <>
-      <h1>Alo mundo!!</h1>
+      <TelaIncial />
     </>
   );
 }
