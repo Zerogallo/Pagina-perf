@@ -29,10 +29,10 @@ export default function TelaIncial() {
             </div>
           </div>
           <div className={styles.cardTitle}>
-            <a>
+            <a href="https://github.com/Zerogallo">
               <FaSquareGithub />
             </a>
-            <a>
+            <a href="https://www.linkedin.com/in/renan-ferreira-44b944311/">
               <FaLinkedin />
             </a>
           </div>
