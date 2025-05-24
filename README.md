@@ -1,12 +1,48 @@
-# React + Vite
+🚀 *Portfólio Front-End | Renan Ferreira*  
+URL do Projeto: (https://zerogallo.github.io/Pagina-perf/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<div align="center">
+  <img src="public/poste.PNG" alt="Demonstração do Carrossel" width="50%"/>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# *Objetivo*  
+Desenvolver um *site pessoal/portfólio* para exibir habilidades e projetos em front-end, integrando experiências técnicas e interatividade. O projeto visa:  
+- Demonstrar competências em desenvolvimento web responsivo.  
+- Conectar redes sociais e plataformas profissionais (LinkedIn, YouTube, WhatsApp).  
+- Explorar a intersecção entre front-end e ciência de dados (seção Cientista).  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### *Tecnologias e Recursos*  
+🛠️ *Stack Principal:*  
+- HTML5 | CSS3 | JavaScript (em planejamento).  
+- GitHub Pages para hospedagem estática.  
+
+📱 *Design:*  
+- Layout responsivo, otimizado para dispositivos móveis (ex: iPhone 14 Pro Max).  
+- Navegação simplificada com seções: Portfolio, Projetos, Cientista.  
+
+🔗 *Integrações:*  
+- Links diretos para redes sociais e ferramentas profissionais.  
+- Experimentos com componentes dinâmicos (ex: seção "FX").  
+
+
+
+#  <img src="https://skillicons.dev/icons?i=vscode" /> Visual Studio Code 
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vite,react,git,css,html,js,nodejs,npm" />
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
