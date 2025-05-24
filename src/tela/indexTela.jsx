@@ -17,24 +17,24 @@ export default function TelaIncial() {
             </h1>
             <p>Desenvolvedor mb front-end. Conheça o meu trabalho </p>
           </section>
-          <ul className={styles.cardLinks}>
-            <li>
+          <div className={styles.cardLinks}>
+            <div>
               <button>Portfólio</button>
-            </li>
-            <li>
+            </div>
+            <div>
               <button>Projeto</button>
-            </li>
-            <li>
+            </div>
+            <div>
               <button>Contato</button>
-            </li>
-          </ul>
+            </div>
+          </div>
           <div className={styles.cardTitle}>
-            <button>
+            <a>
               <FaSquareGithub />
-            </button>
-            <button>
+            </a>
+            <a>
               <FaLinkedin />
-            </button>
+            </a>
           </div>
         </article>
       </div>

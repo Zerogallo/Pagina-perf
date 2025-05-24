@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .appBackground {
   background-image: url("/public/back.webp");
   background-size: cover;
   background-position: center;
-  width: 100dvh;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -21,22 +22,22 @@
   border-radius: 19px;
   border: 3px solid #192633;
   background: rgba(255, 255, 255, 0.81);
-  padding: 52px 16px;
+  padding: 22px 16px;
   width: 516px;
   text-align: center;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 66px;
+  gap: 10px;
 }
 .cardImage {
   width: 90%;
-  max-width: 680px;
-  margin: 2rem auto;
-  padding: 2.5rem;
+  max-width: 200px;
+  margin: 1rem auto;
+  padding: 1.5rem;
   background: #fff;
-  border-radius: 16px;
+  border-radius: 50%;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   font-family: "Segoe UI", system-ui;
 }
@@ -62,13 +63,13 @@
   gap: 10px;
 }
 
-.cardTitle button {
+.cardTitle a {
   display: inline-flex;
   align-items: center;
   gap: 0.8rem;
   padding: 1rem 2rem;
-  background: rgb(57, 150, 57);
-  color: white;
+  background: transparent;
+  color: rgb(57, 150, 57);
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
@@ -76,11 +77,52 @@
   font-size: 2.8rem;
 }
 
-.cardTitle button:hover {
-  background: rgb(27, 83, 27);
+.cardTitle a:hover {
+  color: rgb(27, 83, 27);
   transform: translateY(-2px);
 }
 
-.cardTitle button::after {
+.cardTitle a::after {
   filter: brightness(0) invert(1);
+}
+
+.cardLinks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardLinks button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  background: rgb(57, 150, 57);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.3s;
+  font-size: 2.8rem;
+  width: 400px;
+  min-height: 48px;
+}
+
+.cardLinks button:hover {
+  background: rgb(27, 83, 27);
+  transform: translateY(-2px);
+}
+@media (max-width: 480px) {
+  .card {
+    font-size: 2rem;
+  }
+
+  .cardLinks button {
+    font-size: 1.1rem;
+    width: 200px;
+    min-height: 28px;
+  }
 }
